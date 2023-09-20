@@ -1,9 +1,9 @@
 const {
   readDomainsFromCSV,
   writeValidDomainsToCSV,
-} = require("./modules/csv-helper.js");
+} = require("./helpers/csv-helper.js");
 
-const { filterDomains } = require("./modules/domain-helper.js");
+const { filterDomains } = require("./helpers/domain-helper.js");
 
 (async () => {
   console.time("Domain CSV Generated");
